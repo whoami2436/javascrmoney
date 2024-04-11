@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;                  
+}
+body{
+    background-color: black;
+}
+form{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+input {
+    padding: 10px;
+    outline: 0;
+    background-color: yellow;
+}
+button{
+    padding: 5px;
+    background-color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.sekil {
+    position: relative;
+    margin-bottom: 18px;
+    height: 250px;
+}
+
+.sekil img {
+    width: 600px;
+    height: 100%;
+    position: absolute;
+}
+
+.sekil h1 {
+    font-size: 50px;
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    transform: translateY(-50%)};
+ 
+
+
+
+
+
+
